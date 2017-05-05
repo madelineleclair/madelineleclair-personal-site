@@ -248,6 +248,7 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		display: flex;
 	}
 
 	.row > * {
@@ -1999,6 +2000,10 @@
 
 		header.major p {
 			margin: 0.7em 0 0 0;
+		}
+
+		.section-one {
+			text-align: left;
 		}
 
 	header.special {
