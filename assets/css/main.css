@@ -406,7 +406,7 @@
 	}
 
 	.\36 u, .\36 u\24 {
-		width: 50%;
+		/*width: 50%;*/
 		clear: none;
 		margin-left: 0;
 	}
@@ -2403,7 +2403,11 @@
 				text-align: center;
 			}
 
-				ul.major-icons li .icon {
+			ul.major-icons li span {
+				font-size: 5em;
+			}
+
+				/*ul.major-icons li .icon {
 					-moz-transform: rotate(45deg);
 					-webkit-transform: rotate(45deg);
 					-ms-transform: rotate(45deg);
@@ -2425,7 +2429,7 @@
 						transform: rotate(-45deg);
 						display: inline-block;
 						line-height: inherit;
-					}
+					}*/
 
 		ul.actions {
 			cursor: default;
