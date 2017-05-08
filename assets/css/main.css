@@ -2506,6 +2506,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	.skill-images img{
+		height: 255px;
+	}
+
 /* Table */
 
 	.table-wrapper {
