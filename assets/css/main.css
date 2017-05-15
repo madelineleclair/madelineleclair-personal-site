@@ -2010,6 +2010,10 @@
 		text-align: center;
 	}
 
+.section-one-links > span{
+	color: black;
+}
+
 /* Form */
 
 	form {
