@@ -2010,8 +2010,12 @@
 		text-align: center;
 	}
 
-.section-one-links > span{
+.section-one-links > span {
 	color: black;
+}
+
+.section-one-links > div {
+	font-size: 14pt;
 }
 
 /* Form */
