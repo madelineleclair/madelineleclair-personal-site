@@ -42,13 +42,18 @@ section.about, section.skills, section.projects {
 
 .container {
   width: 75%;
-  padding: 15px;
+  padding: 15px 30px;
+}
+
+@media(max-width: 414px) {
+  .container {
+    padding: 15px;
+  }
 }
 
 @media(max-width: 1200px) {
   .container {
     width: 100%;
-    padding: 15px 30px;
   }
 }
 
