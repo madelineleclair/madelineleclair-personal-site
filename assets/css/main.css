@@ -113,10 +113,14 @@ section.skills li {
   margin-right: 35px;
 }
 
+section.projects .projects-container {
+  display: flex;
+  justify-content: center;
+}
+
 section.projects .project {
   width: 100%;
   border: 2px solid #f1f1f1;
-  display: inline-block;
   margin-right: 40px;
   box-shadow: 0 10px 90px 10px rgba(0,0,0,0.05);
 }
@@ -130,6 +134,10 @@ section.projects .project:last-of-type {
     margin-right: 0px;
     display: block;
     margin: auto;
+  }
+
+  section.projects .projects-container {
+    flex-direction: column;
   }
 
   section.projects .project:last-of-type {
