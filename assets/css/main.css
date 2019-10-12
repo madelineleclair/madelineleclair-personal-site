@@ -74,6 +74,15 @@ section div.main-contents {
   display: flex;
 }
 
+section div.left-side a {
+  text-decoration: underline;
+  color: #23629f;
+}
+
+section div.left-side a:hover, section div.left-side a:active {
+  color: #2c7cc9;
+}
+
 section div.right-side {
   margin-left: 40px;
 }
